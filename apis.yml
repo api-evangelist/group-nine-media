@@ -1,8 +1,26 @@
 aid: group-nine-media
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/group-nine-media.png
 name: Group Nine Media
-description: 'Group Nine Media is a company surfaced as a portfolio company of ivp and added to the API
-  Evangelist network as a stub for enrichment. Sector: media. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Group Nine Media was a New York-based digital-media holding company formed in 2016 through
+  the merger of Discovery Digital with the original Group Nine, uniting the news brand NowThis, the animal
+  brand The Dodo, the lifestyle brand Thrillist, and the science brand Seeker under one roof (it later
+  added PopSugar). Backed by Discovery Inc. and venture investor IVP, it built large social-video and
+  branded-content audiences before it was acquired by Vox Media in February 2022 and folded into that
+  portfolio. Group Nine operated as a consumer media publisher, not an API provider: it did not publish
+  a public developer portal, API documentation, SDKs, or any machine-readable API surface, and its
+  groupnine.com domain now resolves to a third-party domain-sale landing page. This profile is retained
+  as a VC-portfolio identity record with no scorable API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/group-nine-media/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,31 @@ x-backed-by:
 - ivp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Vox Media
+x-acquired-date: '2022-02'
+x-api-surface: none
+x-enrichment-note: 'No public API/developer surface; company acquired by Vox Media (Feb 2022) and
+  groupnine.com now redirects to a domain-sale page — no scorable artifacts to harvest.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Media
+- Digital Media
+- Publishing
+- Video
+- News
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
