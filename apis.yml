@@ -34,7 +34,7 @@ x-acquired-date: '2022-02'
 x-api-surface: none
 x-enrichment-note: 'No public API/developer surface; company acquired by Vox Media (Feb 2022) and
   groupnine.com now redirects to a domain-sale page — no scorable artifacts to harvest.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
